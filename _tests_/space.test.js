@@ -12,6 +12,6 @@ describe('spaceage', () => {
     expect(spaceAge.finalAge).toEqual(78);
   });
   test("should correctly change years to mercury years", () => {
-    expect(spaceAge.earthToMercury(2)).toEqual(8.33333333);
+    expect(spaceAge.earthToMercury(2)).toEqual(8.333333333333334);
   });
 });
