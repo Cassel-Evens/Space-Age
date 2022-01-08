@@ -15,4 +15,7 @@ export class spaceage {
   earthToJupiter(years) {
     return years / 11.86; 
   }
+  lifeLeftEarth() {
+    return this.finalAge - this.years;
+  }
 };
