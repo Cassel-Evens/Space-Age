@@ -23,7 +23,10 @@ describe('spaceage', () => {
   test("should correctly change earth years to jupiter years", () => {
     expect(spaceAge.earthToJupiter(2)).toEqual(0.16863406408094436);
   });
-  test('Should correctly get the users life left on Earth', () => {
+  test("Should correctly get the users life left on Earth", () => {
     expect(spaceAge.lifeLeftEarth()).toEqual(58);
+  });
+  test("Should calculate how many years they have left mercury", () => {
+    expect(spaceAge.lifeLeftMercury()).toEqual(241.66666666666666);
   });
 });

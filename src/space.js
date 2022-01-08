@@ -18,4 +18,7 @@ export class spaceage {
   lifeLeftEarth() {
     return this.finalAge - this.years;
   }
+  lifeLeftMercury() {
+    return this.finalAge / .24 - this.years /.24;
+  }
 };
