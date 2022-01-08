@@ -9,4 +9,7 @@ export class spaceage {
   earthToMars(years) {
     return years / 1.88;
   }
+  earthToVenus(years) {
+    return years / .62;
+  }
 };
