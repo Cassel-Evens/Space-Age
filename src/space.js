@@ -21,4 +21,7 @@ export class spaceage {
   lifeLeftMercury() {
     return this.finalAge / .24 - this.years /.24;
   }
+  lifeLeftMars() {
+    return this.finalAge / 1.88 - this.years / 1.88;
+  }
 };
