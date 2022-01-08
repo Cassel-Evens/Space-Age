@@ -20,4 +20,7 @@ describe('spaceage', () => {
   test("should correctly change earth years to venus years", () => {
     expect(spaceAge.earthToVenus(2)).toEqual(3.2258064516129035);
   });
+  test("should correctly change earth years to jupiter years", () => {
+    expect(spaceAge.earthToJupiter(2)).toEqual(0.16863406408094436);
+  });
 });
