@@ -38,4 +38,7 @@ describe('spaceage', () => {
   test("Should calculate and return years left on Jupiter", () => {
     expect(spaceAge.lifeLeftJupiter()).toEqual(4.8903878583473865);
   });
+  test("Should return how many years lived past average life span", () => {
+    expect(spaceAge.yearsOverDue()).toEqual(-58);
+  });
 });

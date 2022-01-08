@@ -30,4 +30,7 @@ export class spaceage {
   lifeLeftJupiter() {
     return this.finalAge / 11.86 - this.years / 11.86;
   }
+  yearsOverDue() {
+    return this.years - this.finalAge;
+  }
 };
