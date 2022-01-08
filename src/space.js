@@ -24,4 +24,7 @@ export class spaceage {
   lifeLeftMars() {
     return this.finalAge / 1.88 - this.years / 1.88;
   }
+  lifeLeftVenus() {
+    return this.finalAge / .62 - this.years / .62;
+  }
 };
