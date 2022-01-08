@@ -3,5 +3,7 @@ export class spaceage {
     this.years = years;
     this.finalAge = finalAge;
   }
-
+  earthToMercury(years) {
+    return years / .24;
+  } 
 };
