@@ -6,4 +6,7 @@ export class spaceage {
   earthToMercury(years) {
     return years / .24;
   } 
+  earthToMars(years) {
+    return years / 1.88;
+  }
 };
