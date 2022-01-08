@@ -35,4 +35,7 @@ describe('spaceage', () => {
   test("Should calculate and return years left to live on Venus", () => {
     expect(spaceAge.lifeLeftVenus()).toEqual(93.5483870967742);
   });
+  test("Should calculate and return years left on Jupiter", () => {
+    expect(spaceAge.lifeLeftJupiter()).toEqual(4.8903878583473865);
+  });
 });
