@@ -14,8 +14,8 @@
 * _eslint_
 * _Jest_
 
-##Description
-# Space Age creates a calculator that can calculate what your age would be on planets in our solar-system.
+## Description
+Space Age creates a calculator that can calculate what your age would be on planets in our solar-system.
 
 ## Project Setup/Installation Instructions:
 
