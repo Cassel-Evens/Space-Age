@@ -23,9 +23,9 @@ Space Age creates a calculator that can calculate what your age would be on plan
 
 - Navigate to the parent directory of your preference.
 
-- Clone this project using  $ git clone https://github.com/johnwhittenstudio/project-5
+- Clone this project using  $ git clone https://github.com/Cassel-Evens/Space-Age.git
 
-- Navigate to the top level of the directory with the command  $ cd project-5
+- Navigate to the top level of the directory with the command  $ cd Space-Age.
 
 - Make sure you have installed [Node js](https://nodejs.org/en/)
 
